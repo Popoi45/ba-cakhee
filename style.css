@@ -154,11 +154,13 @@
         
         .ta-serv-list__item {
             height: 100px;
+            width: 410px;
             background-color: white;
             margin: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-align: center;
         }
         
         .ta-serv-list__item:hover {
@@ -208,10 +210,10 @@
         
         @keyframes hovering {
             from {
-                border: 2px solid #70bfff;
+                border: 1px solid #70bfff;
                 box-shadow: 5px 5px 5px 5px #00b2b2;
             }
             to {
-                border: 3px solid cadetblue;
+                border: 1px solid cadetblue;
             }
         }
